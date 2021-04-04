@@ -45,7 +45,7 @@ const Home = {
       fetch('https://newsapi.org/v2/top-headlines?country=us',
     {
     headers: {
-    'Authorization': 'Bearer 3937c5202e7e489ea28e8fae91366a3e'
+    'Authorization': 'Bearer '
     }
     })
     .then(function(response) {
@@ -69,7 +69,7 @@ const Home = {
       fetch('https://newsapi.org/v2/everything?q='+
       self.searchTerm + '&language=en', {
         headers: {
-          'Authorization': 'Bearer 3937c5202e7e489ea28e8fae91366a3e'
+          'Authorization': 'Bearer '
         }
       })
       .then(function(response) {
